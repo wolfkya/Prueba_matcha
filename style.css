@@ -1,0 +1,21 @@
+body{
+    background-color: #fffbf7;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+h1{
+    color:#025157;
+}
+p{
+    color:darkgray; 
+}
+
+.color_boton{
+    color:white;
+    background-color: #025157;
+}
+
+.color_promocional{
+    color:grey;
+}
