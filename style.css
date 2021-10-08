@@ -36,10 +36,17 @@ body{
 }
 
 .header{
-    margin-top: 40px;
+    font-family: sans-serif;
+    margin-top: 0px;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 0px;
+    position: fixed;
+    top:0px;
+    right: 0px;
+    left: 0px;
+    background-color: #fffbf7;
+    padding-bottom: 15px;
 }
 
 .ul{
@@ -72,4 +79,45 @@ body{
 
 .Start{
     padding: 0;
+}
+
+/* inicia codigo de section 2 de pubclishing */
+
+.promo {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 100px auto;
+    align-items: center;
+}
+
+.publish{
+    padding-left: 10px;
+}
+.publish h3{
+    font-family: "Alegreya", Serif;
+    font-size: 40px;
+    line-height: 48px;
+    color:#025157;
+    font-weight: 900;
+}
+
+.publish>p{
+    font-size: 16px;
+    color: 343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.promo .explanatory-video {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding-right: 20px;
+}
+
+.promo .explanatory-video img {
+    width: 120px;
+    margin-top: 10px;
+    vertical-align: middle;
 }
